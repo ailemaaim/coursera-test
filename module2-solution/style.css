@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin :0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row {
+   
+    width: 100%;
+}
+#allsec {
+    position: relative;
+    top: 60px;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    position: relative;
+    top: 0;
+    background-color: grey;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px 20px;
+}
+#p1 {
+    clear: both;
+}
+#p2 {
+    clear: both;
+}
+#p3 {
+    clear: both;
+}
+p {
+    text-align:justify;
+    font-size: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    
+}
+
+#t1{
+    background-color: beige;
+    position: relative;
+    bottom: 11px;
+    left: 21px;
+   
+    
+}
+
+#t2{
+    background-color: aquamarine;
+    position: relative;
+    bottom: 11px;
+    left: 21px;
+    
+    
+
+}
+
+#t3 {
+    background-color: sienna;
+    position: relative;
+    bottom: 11px;
+    left: 21px;
+
+}
+h2{
+    position: absolute;
+    float: right;
+    width: 33%;
+    text-align: center;
+    padding:10px;
+    font-size: 20px;
+    font-style: oblique;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    margin-top: 0%;
+}
+
+
+
+@media (min-width: 992px){
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+    }
+    .col-lg-1 {
+        width: 8.33%;
+      }
+      .col-lg-2 {
+        width: 16.66%;
+      }
+      .col-lg-3 {
+        width: 25%;
+      }
+      .col-lg-4 {
+        width: 33.33%;
+      }
+      .col-lg-5 {
+        width: 41.66%;
+      }
+      .col-lg-6 {
+        width: 50%;
+      }
+      .col-lg-7 {
+        width: 58.33%;
+      }
+      .col-lg-8 {
+        width: 66.66%;
+      }
+      .col-lg-9 {
+        width: 74.99%;
+      }
+      .col-lg-10 {
+        width: 83.33%;
+      }
+      .col-lg-11 {
+        width: 91.66%;
+      }
+      .col-lg-12 {
+        width: 100%;
+      }
+}
+
+@media (min-width : 768px) AND (max-width: 991px){
+    .col-lg-4 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-lg-tab {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (max-width : 767px){
+    .col-lg-4 {
+        width: 100%;
+        float: left;
+    }
+
+}
